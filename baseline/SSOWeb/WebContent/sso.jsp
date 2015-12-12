@@ -24,7 +24,7 @@
       	Welcome to SSO Web
 	<%  
 		String name=request.getHeader("SM_USERDN");  
-		out.print("welcome "+name);  
+		out.print("Hello "+name);  
 	%>
 </body>
 </html>
